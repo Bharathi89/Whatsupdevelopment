@@ -22,3 +22,4 @@ and reconciliation_generation_date<='2022-09-30' and reconciliation_type='Commer
 
 select sum(paid_amount) from payments where create_date>='2022-09-01' and create_date<='2022-09-30' and partner_id=60
 
+Hiding the last seen
