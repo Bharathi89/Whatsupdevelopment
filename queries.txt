@@ -1,0 +1,24 @@
+select sum(paid_amount) from payments where create_date>='2022-10-01' and create_date<='2022-10-04'
+
+select sum(deposit_amount) from deposits where create_date>='2022-10-01' and create_date<='2022-10-04' and status='Accepted'
+
+select sum(paid_amount) from payments where create_date>='2022-10-01' and create_date<='2022-10-04'
+
+select * from partners where status='Operational'
+
+select * from openTicketdetails where ticket_closed_date='2022-10-03' and reconciliation_type='Commercial'
+
+select * from openTicketdetails where ticket_date='2022-10-03' and reconciliation_type='Commercial'
+
+select * from openTicketdetails where ticket_closed_date='2022-10-03' and reconciliation_type='Financial'
+
+select * from openTicketdetails where ticket_date='2022-10-03' and reconciliation_type='Financial'
+
+select * from financial_reconciliations where reconciliation_type='Commercial' and 
+reconciliation_generation_date='2022-10-04' and is_ticket_opened='Yes'
+
+select sum(amount_collected_partner) from financial_reconciliations where reconciliation_generation_date>='2022-09-01'
+and reconciliation_generation_date<='2022-09-30' and reconciliation_type='Commercial' and partner_id=60
+
+select sum(paid_amount) from payments where create_date>='2022-09-01' and create_date<='2022-09-30' and partner_id=60
+
