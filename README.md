@@ -1,2 +1,2 @@
 # Whatsupdevelopment
-This application is to develop the chat 
+This repositiries is to develop the chat 
