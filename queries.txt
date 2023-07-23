@@ -28,3 +28,5 @@ Added the video & audio branch
 
 Add the XML file
 Add the TestNG file
+
+Add the maven depenency
