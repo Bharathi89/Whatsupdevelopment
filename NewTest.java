@@ -5,4 +5,7 @@ public class NewTest {
   public void f() {
     System.Out.Println("F");
   }
+    public void addJob() {
+    System.Out.Println("teacher");
+  }
 }
