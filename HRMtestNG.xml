@@ -9,7 +9,7 @@
     <classes>
       <class name="testCases.Test_user_role"/>
     </classes></test>
-    <!--<test name="Check user role test case">
+    <!--<test name="Delete user test case">
     <classes>
       <class name="testCases.Delete_user"/>
     </classes></test>-->
