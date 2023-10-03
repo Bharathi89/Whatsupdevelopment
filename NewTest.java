@@ -8,6 +8,14 @@ public class NewTest {
     public void addJob() {
     System.Out.Println("teacher");
   }
+
+  
+
+  public void searchJob()
+  {
+    System.out.println("Jobs");
+
+}
    public void addVacancy() {
     System.Out.Println("post");
   }
